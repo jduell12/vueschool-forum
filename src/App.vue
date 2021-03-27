@@ -1,11 +1,16 @@
 <template>
-  <div></div>
+  <div>
+    <Data />
+  </div>
 </template>
 
 <script>
+import Data from './components/Data'
 export default {
   name: 'App',
-  components: {},
+  components: {
+    Data
+  },
   methods: {}
 }
 </script>
