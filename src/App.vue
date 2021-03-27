@@ -6,11 +6,7 @@
 export default {
   name: 'App',
   components: {},
-  methods: {
-    check () {
-      const name = 'Alex'
-    }
-  }
+  methods: {}
 }
 </script>
 
