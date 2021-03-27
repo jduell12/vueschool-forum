@@ -4,14 +4,14 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   components: {},
   methods: {
-    check() {
-      let name = "Alex";
+    check () {
+      const name = 'Alex'
     }
   }
-};
+}
 </script>
 
 <style></style>
