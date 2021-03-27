@@ -5,7 +5,12 @@
 <script>
 export default {
   name: "App",
-  components: {}
+  components: {},
+  methods: {
+    check() {
+      let name = "Alex";
+    }
+  }
 };
 </script>
 
