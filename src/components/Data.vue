@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>{{ sourceData.threads }}</div>
+    <div></div>
   </div>
 </template>
 
