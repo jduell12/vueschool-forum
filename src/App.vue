@@ -18,7 +18,5 @@ export default {
 </script>
 
 <style>
-#app {
-  text-align: center;
-}
+@import 'assets/style.css';
 </style>

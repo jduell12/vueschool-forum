@@ -1,6 +1,7 @@
 body {
     background-color: #F6F8FF;
     min-height: 100vh;
+    text-align:center;
 }
 
 *, *:after, *:before {
