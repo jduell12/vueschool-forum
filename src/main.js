@@ -3,14 +3,14 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import Home from "./components/Home";
-import * as VueRouter from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 //define routes which map to a component
-const routes = [{ path: "/", component: Home }];
+const routes = [{ path: "/", name: "Home", component: Home }];
 
 //create router instance
-const router = VueRouter.createRouter({
-  history: VueRouter.createWebHistory(),
+const router = createRouter({
+  history: createWebHistory(),
   routes
 });
 
